@@ -4,22 +4,23 @@
 using namespace std;
 int main()
 {
-	double w, h;
+	// This method job is to ....
+
+	double width, height;
 	char ch;
 	cout << "Enter the width : ";
-	cin >> w;
+	cin >> width;
 	cout << "Enter the height : ";
-	cin >> h;
+	cin >> height;
 	cout << "Enter the character : ";
 	cin >> ch;
-	for (int n = 1;n <= h;n++)
+	for (int n = 1;n <= height;n++)
 	{
-
-		for (int i = 1;i <= w;i++)
+		// nested loop to handle .....
+		for (int i = 1;i <= width;i++)
 		{
 			cout << ch;
 		}
 		cout << "\n";
 	}
-
 }
