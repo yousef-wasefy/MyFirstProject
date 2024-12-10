@@ -6,7 +6,7 @@ int main()
 {
 	// This method job is to ....
 
-	double width, height;
+	double width, height ;
 	char ch;
 	cout << "Enter the width : ";
 	cin >> width;
